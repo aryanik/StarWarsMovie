@@ -74,6 +74,11 @@ Slow Network: Throttled connection → <Loader> appears until data loads
 Unknown Route: /random-path → <NotFound> page rendered
 Rapid Navigation: Click Back mid-fetch → Returns to list without errors
 
+Screenshots
 
+<img width="1920" height="855" alt="1" src="https://github.com/user-attachments/assets/0586f762-ae5a-43d3-b3d2-e36d2ea0bdc4" />
 
+<img width="1886" height="782" alt="2" src="https://github.com/user-attachments/assets/242177da-76d3-4af4-9dad-5f4d4bc55603" />
+
+<img width="1918" height="768" alt="3" src="https://github.com/user-attachments/assets/90ce537a-b886-4abc-9e7e-042b52d605b4" />
 
