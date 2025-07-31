@@ -56,13 +56,13 @@ Runtime error → `ErrorBoundary` renders `ErrorPage`.
 
 <img width="665" height="299" alt="Matrix" src="https://github.com/user-attachments/assets/550f9495-3260-4991-b124-171b1379a716" />
 
-9. Error Handling Strategy
-1. **Compile-time** – TypeScript eliminates many type errors.
-2. **Runtime (render/lifecycle)** – `ErrorBoundary` wraps the app.
-3. **Network** – RTK Query exposes `isError`, `error`; views render the `<Error>`
+9. Error Handling Strategy -----
+a. **Compile-time** – TypeScript eliminates many type errors.
+b. **Runtime (render/lifecycle)** – `ErrorBoundary` wraps the app.
+c. **Network** – RTK Query exposes `isError`, `error`; views render the `<Error>`
 component with retry links if desired.
-4. **404** – Catch-all `path="*"` route shows `<NotFound>`.
-5. Loading States - While RTK Query is pending, components display a <Loader> spinner to
+d. **404** – Catch-all `path="*"` route shows `<NotFound>`.
+e. Loading States - While RTK Query is pending, components display a <Loader> spinner to
 indicate progress.
 
 
